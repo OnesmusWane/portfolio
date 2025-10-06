@@ -65,7 +65,7 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="text-sm opacity-80">Email</p>
-                    <a href="mailto:onesmuswane@gmail.com" className="hover:underline">
+                    <a href="mailto:onesmuswane@gmail.com" target="_blank" className="hover:underline">
                       onesmuswane@gmail.com
                     </a>
                   </div>
@@ -78,7 +78,7 @@ export function Contact() {
                     <p className="text-sm opacity-80">Phone & WhatsApp</p>
                     <div className="flex flex-col sm:flex-row sm:items-center gap-2">
                       <a
-                        href="tel:+254743658188"
+                        href="tel:+254743658188" target="_blank"
                         className="hover:underline text-white"
                       >
                         Call: +254 743 658 188
