@@ -6,7 +6,7 @@ export function Hero() {
         <div className="md:w-1/2 mb-8 md:mb-0">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 tracking-tight">
             <span className="text-indigo-600 dark:text-indigo-400">
-              Full Stack
+              Full Stack & Backend
             </span>{' '}
             Developer
           </h1>
