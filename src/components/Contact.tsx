@@ -45,7 +45,7 @@ export function Contact() {
             I'd love to hear from you.
           </p>
         </div>
-        <div className="flex flex-col md:flex-row gap-10 max-w-6xl mx-auto">
+        <div className="flex justify-center md:flex-row gap-10 max-w-6xl mx-auto">
           {/* Contact Information */}
           <div className="md:w-2/5">
             <div className="bg-indigo-600 dark:bg-indigo-700 text-white rounded-xl p-8 h-full">
@@ -53,7 +53,10 @@ export function Contact() {
                 Contact Information
               </h3>
               <p className="mb-8 opacity-90">
-                Fill out the form and I will get back to you within 24 hours.
+                <p className="mb-8 opacity-90">
+                  Got a question or project in mind? Contact me directly,  I’m just a message away!
+                </p>
+
               </p>
               <div className="space-y-6">
                 <div className="flex items-start">
@@ -62,8 +65,8 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="text-sm opacity-80">Email</p>
-                    <a href="mailto:contact@example.com" className="hover:underline">
-                      contact@example.com
+                    <a href="mailto:onesmuswane@gmail.com" className="hover:underline">
+                      onesmuswane@gmail.com
                     </a>
                   </div>
                 </div>
@@ -72,11 +75,26 @@ export function Contact() {
                     <PhoneIcon size={20} />
                   </div>
                   <div>
-                    <p className="text-sm opacity-80">Phone</p>
-                    <a href="tel:+1234567890" className="hover:underline">
-                      +1 (234) 567-890
-                    </a>
+                    <p className="text-sm opacity-80">Phone & WhatsApp</p>
+                    <div className="flex flex-col sm:flex-row sm:items-center gap-2">
+                      <a
+                        href="tel:+254743658188"
+                        className="hover:underline text-white"
+                      >
+                        Call: +254 743 658 188
+                      </a>
+                      <span className="hidden sm:inline text-gray-400">|</span>
+                      <a
+                        href="https://wa.me/254743658188"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:underline"
+                      >
+                        WhatsApp
+                      </a>
+                    </div>
                   </div>
+
                 </div>
                 <div className="flex items-start">
                   <div className="p-3 bg-indigo-500/30 rounded-lg mr-4">
@@ -84,39 +102,58 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="text-sm opacity-80">Location</p>
-                    <p>San Francisco, California</p>
+                    <p>Nairobi, Kenya</p>
                   </div>
                 </div>
               </div>
               <div className="mt-12 pt-8 border-t border-indigo-500/30">
                 <p className="font-medium mb-4">Connect with me</p>
                 <div className="flex space-x-4">
-                  <a href="#" className="p-2 bg-indigo-500/30 rounded-full hover:bg-indigo-500/50 transition-colors">
+                  <a href="https://www.linkedin.com/in/onesmus-wane-9a19a61a0/" target="_blank" className="p-2 bg-indigo-500/30 rounded-full hover:bg-indigo-500/50 transition-colors" target="_blank" rel="noopener noreferrer">
+                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 
+                      2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 
+                      17.34V10.67H5.67V17.34H8.34M7 
+                      9.44A1.33 1.33 0 1 0 7 6.78A1.33 1.33 0 0 0 
+                      7 9.44M18.33 17.34V13.5C18.33 11.5 
+                      17.22 10.55 15.78 10.55C14.67 10.55 
+                      14.11 11.22 13.83 11.72V10.67H11.17V17.34H13.83V13.78C13.83 
+                      13 14.06 12.28 15 12.28C15.91 12.28 15.94 13.06 
+                      15.94 13.83V17.34H18.33Z" />
+                    </svg>
+                  </a>
+                  <a href="https://github.com/OnesmusWane"  target="_blank" className="p-2 bg-indigo-500/30 rounded-full hover:bg-indigo-500/50 transition-colors">
                     <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                       <path fillRule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clipRule="evenodd"></path>
                     </svg>
                   </a>
-                  <a href="#" className="p-2 bg-indigo-500/30 rounded-full hover:bg-indigo-500/50 transition-colors">
-                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                      <path fillRule="evenodd" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z" clipRule="evenodd"></path>
+                  <a href="https://x.com/OnesmusWane"  target="_blank" className="p-2 bg-indigo-500/30 rounded-full hover:bg-indigo-500/50 transition-colors">
+                      <svg className="w-5 h-5" fill="currentColor"  viewBox="0 0 24 24"  aria-hidden="true"  >
+                      <path d="M18.244 2H21.5l-7.68 8.77L22 22h-6.213l-4.867-5.82L5.5 22H2.24l8.2-9.377L2 2h6.274l4.347 5.166L18.244 2zm-2.177 18h1.206L8.03 4H6.753l9.314 16z" />
                     </svg>
                   </a>
-                  <a href="#" className="p-2 bg-indigo-500/30 rounded-full hover:bg-indigo-500/50 transition-colors">
-                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                      <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
+                  <a  href="#"  target="_blank" className="p-2 bg-indigo-500/30 rounded-full hover:bg-indigo-500/50 transition-colors"  target="_blank" rel="noopener noreferrer" >
+                    <svg className="w-5 h-5" fill="currentColor"  viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M7.75 2h8.5A5.76 5.76 0 0 1 22 7.75v8.5A5.76 5.76 0 0 1 
+                      16.25 22h-8.5A5.76 5.76 0 0 1 2 16.25v-8.5A5.76 5.76 0 0 1 
+                      7.75 2zm0 1.5A4.26 4.26 0 0 0 3.5 7.75v8.5A4.26 4.26 0 0 0 
+                      7.75 20.5h8.5A4.26 4.26 0 0 0 20.5 16.25v-8.5A4.26 4.26 0 0 0 
+                      16.25 3.5h-8.5zm4.25 4a4.75 4.75 0 1 1 0 9.5a4.75 4.75 0 0 1 
+                      0-9.5zm0 1.5a3.25 3.25 0 1 0 0 6.5a3.25 3.25 0 0 0 0-6.5zm5-1.75a1 
+                      1 0 1 1 0 2a1 1 0 0 1 0-2z" />
                     </svg>
-                  </a>
-                  <a href="#" className="p-2 bg-indigo-500/30 rounded-full hover:bg-indigo-500/50 transition-colors">
-                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                      <path fillRule="evenodd" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm-1 15h-2v-6h2v6zm-1-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm8 7h-2v-3c0-1.66-1.34-3-3-3h-1v-1h1c2.21 0 4 1.79 4 4v3z" clipRule="evenodd"></path>
-                    </svg>
-                  </a>
+                </a>
+                <a href="#"   target="_blank" className="p-2 bg-indigo-500/30 rounded-full hover:bg-indigo-500/50 transition-colors" target="_blank" rel="noopener noreferrer">
+                  <svg className="w-5 h-5" fill="currentColor"  viewBox="0 0 24 24" aria-hidden="true"  >
+                    <path d="M12.75 2a5.25 5.25 0 0 0 5.25 5.25v2.05a7.29 7.29 0 0 1-3.16-.7v6.69a5.59 5.59 0 1 1-5.59-5.59h.27v2.06a3.54 3.54 0 1 0 3.32 3.53V2h2.91z" />
+                  </svg>
+                </a>
                 </div>
               </div>
             </div>
           </div>
           {/* Contact Form */}
-          <div className="md:w-3/5">
+          <div className="md:w-3/5 hidden">
             <form onSubmit={handleSubmit} className="bg-gray-50 dark:bg-gray-900 rounded-xl p-8">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
                 <div>
