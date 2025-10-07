@@ -41,7 +41,7 @@ export function Experience() {
                   <h3 className="text-xl font-semibold">{exp.role}</h3>
                 </div>
                 <div className="text-indigo-600 dark:text-indigo-400 font-medium mb-2">
-                  {exp.company}
+                  {exp.company} 
                 </div>
                 <div className="flex flex-wrap items-center text-sm text-gray-600 dark:text-gray-400 mb-4">
                   <div className="flex items-center mr-4 mb-2">
