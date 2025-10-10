@@ -109,7 +109,7 @@ export function Contact() {
               <div className="mt-12 pt-8 border-t border-indigo-500/30">
                 <p className="font-medium mb-4">Connect with me</p>
                 <div className="flex space-x-4">
-                  <a href="https://www.linkedin.com/in/onesmus-wane-9a19a61a0/" target="_blank" className="p-2 bg-indigo-500/30 rounded-full hover:bg-indigo-500/50 transition-colors" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/onesmus-wane-9a19a61a0/" target="_blank" className="p-2 bg-indigo-500/30 rounded-full hover:bg-indigo-500/50 transition-colors" rel="noopener noreferrer">
                     <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                       <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 
                       2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 
@@ -132,7 +132,7 @@ export function Contact() {
                       <path d="M18.244 2H21.5l-7.68 8.77L22 22h-6.213l-4.867-5.82L5.5 22H2.24l8.2-9.377L2 2h6.274l4.347 5.166L18.244 2zm-2.177 18h1.206L8.03 4H6.753l9.314 16z" />
                     </svg>
                   </a>
-                  <a  href="#"  target="_blank" className="p-2 bg-indigo-500/30 rounded-full hover:bg-indigo-500/50 transition-colors"  target="_blank" rel="noopener noreferrer" >
+                  <a  href="#"  target="_blank" className="p-2 bg-indigo-500/30 rounded-full hover:bg-indigo-500/50 transition-colors" rel="noopener noreferrer" >
                     <svg className="w-5 h-5" fill="currentColor"  viewBox="0 0 24 24" aria-hidden="true">
                       <path d="M7.75 2h8.5A5.76 5.76 0 0 1 22 7.75v8.5A5.76 5.76 0 0 1 
                       16.25 22h-8.5A5.76 5.76 0 0 1 2 16.25v-8.5A5.76 5.76 0 0 1 
@@ -143,7 +143,7 @@ export function Contact() {
                       1 0 1 1 0 2a1 1 0 0 1 0-2z" />
                     </svg>
                 </a>
-                <a href="#"   target="_blank" className="p-2 bg-indigo-500/30 rounded-full hover:bg-indigo-500/50 transition-colors" target="_blank" rel="noopener noreferrer">
+                <a href="#"   target="_blank" className="p-2 bg-indigo-500/30 rounded-full hover:bg-indigo-500/50 transition-colors" rel="noopener noreferrer">
                   <svg className="w-5 h-5" fill="currentColor"  viewBox="0 0 24 24" aria-hidden="true"  >
                     <path d="M12.75 2a5.25 5.25 0 0 0 5.25 5.25v2.05a7.29 7.29 0 0 1-3.16-.7v6.69a5.59 5.59 0 1 1-5.59-5.59h.27v2.06a3.54 3.54 0 1 0 3.32 3.53V2h2.91z" />
                   </svg>
