@@ -49,7 +49,7 @@ const projects: Project[] = [
       title: 'IMS — My 1Health Information Management System',
       subtitle: 'Internal operational platform — no public URL',
       role: 'Lead Developer & System Architect',
-      status: 'Live · Active',
+      status: 'Live · Active', 
       overview: 'The My 1Health IMS is the operational nerve centre of the medical tourism platform. It consolidates every patient-facing workflow into a single system: from first inquiry and KYC, through treatment plan selection and hospital referral, to post-treatment follow-up and insurance settlement. Case officers manage complex multi-country patient journeys entirely within the system, with full audit trails and SLA tracking on every step.',
       metrics: [
         { label: 'PATIENTS MANAGED', value: '53K+' },
