@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;700&family=Geist:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Design System Colors */
+  --color-obsidian: #0B0C10;
+  --color-obsidian-card: #12131C;
+  --color-surface: #12131C;
+  --color-obsidian-border: #1E202B;
+
+  /* Interactive Electric State */
+  --color-electric: #0070f3;
+  --color-electric-glow: #00dfd8;
+
+  /* Typography Override */
+  --font-sans: "Geist", system-ui, sans-serif;
+  --font-mono: "Geist Mono", monospace;
+  --default-font-family: var(--font-sans);
+}
+
+body {
+  background-color: #0B0C10;
+  color: #e4e4e7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Grain background for premium depth */
+.tech-bg {
+  background-color: #0B0C10;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 0);
+  background-size: 48px 48px;
+}
+
+/* Cursor blink — terminal style */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Status dot pulse */
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.15); }
+}
+
+.animate-blink {
+  animation: blink 0.8s linear infinite;
+}
+
+.animate-pulse-dot {
+  animation: pulse-dot 2s ease-in-out infinite;
+}
