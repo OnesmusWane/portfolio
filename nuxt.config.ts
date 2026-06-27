@@ -29,6 +29,11 @@ export default defineNuxtConfig({
     },
   },
 
+  // Pre-render the landing page at build time so crawlers get static HTML
+  routeRules: {
+    '/': { prerender: true },
+  },
+
   vite: {
     plugins: [
       tailwindcss(),
