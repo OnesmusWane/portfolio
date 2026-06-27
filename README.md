@@ -2,7 +2,7 @@
 
 Personal portfolio of **Onesmus Wane**, Senior Full-Stack & Agentic AI Engineer based in Nairobi, Kenya. Built with Nuxt 4, Vue 3, and Tailwind CSS v4.
 
-Live: [onesmuswane.dev](https://onesmuswane.dev) _(update when domain is confirmed)_
+Live: [onesmuswane.netlify.app](https://onesmuswane.netlify.app) _(update when domain is confirmed)_
 
 ---
 
@@ -132,7 +132,7 @@ npm run preview
 - Canonical URL, keyword meta, `robots: index, follow, max-image-preview:large`
 - `robots.txt` and `sitemap.xml` served from `/public`
 
-**When your domain is confirmed:** find-and-replace `onesmuswane.dev` across the project — it appears in `index.vue`, `sitemap.xml`, and `robots.txt` only.
+**When your domain is confirmed:** find-and-replace `onesmuswane.netlify.app` across the project — it appears in `index.vue`, `sitemap.xml`, and `robots.txt` only.
 
 ---
 
@@ -156,7 +156,7 @@ npm run generate
 **Pre-launch checklist:**
 
 - [ ] Add `public/og-image.png` at 1200×630px for social sharing previews
-- [ ] Replace `onesmuswane.dev` with the real domain
+- [ ] Replace `onesmuswane.netlify.app` with the real domain
 - [ ] Submit `https://yourdomain.com/sitemap.xml` to Google Search Console and Bing Webmaster Tools
 - [ ] Verify JSON-LD with [Google Rich Results Test](https://search.google.com/test/rich-results)
 

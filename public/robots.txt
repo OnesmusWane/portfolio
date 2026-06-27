@@ -3,4 +3,4 @@ Allow: /
 Disallow: /api/
 
 # Sitemap
-Sitemap: https://onesmuswane.dev/sitemap.xml
+Sitemap: https://onesmuswane.netlify.app/sitemap.xml

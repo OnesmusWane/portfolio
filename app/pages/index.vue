@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const SITE_URL = "https://onesmuswane.dev";
+const SITE_URL = "https://onesmuswane.netlify.app";
 const OG_IMAGE = `${SITE_URL}/og-image.png`;
 
 const title =
